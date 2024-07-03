@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rabittino Serviços</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            background-color: #FFFFFF !important;
+        
+        }
+        
+        nav {
+            box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.39);
+        }
+
+
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #01796f;
+        }
+
+        h2 {
+            font-size: 2rem;
+            font-weight: 900;
+            text-decoration: underline;
+            color: #01796f;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #236751;
+        }
+
+        .navbar-brand img {
+            border-radius: 50%;
+        }
+
+        .btn-primary {
+            font-size: 150%;
+            height: 10vh;
+            width: 100%;
+            max-width: 300px;
+            margin: 20px auto;
+            display: block;
+            padding-bottom: 10px;
+            text-decoration: none;
+            background-color: #a56c44;
+            border-color: #a56c44;
+
+        }
+
+        .btn-primary:hover {
+            background-color: #8b5c3b;
+            border-color: #8b5c3b;
+        }
+
+        .logo {
+            border-radius: 50%;
+            border-width: 4px;
+            border-style: solid;
+            border-color: #8b5c3b;
+        }
+
+        #navbarNav {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-decoration: none;
+            font-size: 1.3rem;
+            font-weight: 900;
+            color: white;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 25px;
+        
+        }
+
+        .nav-item {
+            display: block;
+            text-decoration: none;
+
+            color: #000;
+            padding: 7px;
+            color: white;
+            padding: 10px 15px;
+            border: 2px solid transparent;
+            
+        }
+
+        .nav-link {
+            color: white;
+            padding: px 15px;
+            border: 2px solid white;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 7px;
+            transition: color 0.3s ease, background-color 0.3s ease, border 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #01796f;
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+
+        .form-container {
+            background-color: #f8f9fa;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.39);
+        }
+
+        .form-container h2 {
+            margin-bottom: 20px;
+        }
+
+        #Placa img {
+            max-width: 123%;
+            margin-left: 4%;
+            margin-top: -8%;
+        }
+
+        .services-section {
+            padding: 50px 0;
+            background-color: #f0f0f0;
+        }
+
+        .services-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .service-item {
+            background-color: #01796f;
+            color: white;
+            font-weight: 900;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 8px;
+            flex: 1;
+            max-width: 300px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .service-item:hover {
+            background-color: #016a60;
+        }
+
+        .services-description {
+            max-width: 600px;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.39);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#008584">
+        <a class="navbar-brand" href="#">
+            <img class="logo" src="Imagens/RabittinoLogo.png" alt="Rabittino Logo" width="120" height="120" class="d-inline-block align-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Produtos e Serviços</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Cadastre-se</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="services-section">
+        <div class="container">
+            <h2 class="text-center">Nossos serviços</h2>
+            <div class="services-container">
+                <div class="service-item">
+                    SISTEMA DE MEDIÇÃO DE UMIDADE E TEMPERATURA (ESP8266)
+                </div>
+                <div class="service-item">
+                    SISTEMA DE MEDIÇÃO DE UMIDADE E TEMPERATURA (ARDUINO - UNO)
+                </div>
+                <div class="service-item">
+                    ESTAÇÃO METEOROLÓGICA (ARDUINO UNO)
+                </div>
+            </div>
+            <div class="services-description">
+                <p>Visando melhorar a produção dos setores de cunicultura nas produções pecuárias, temos os nossos sistemas de medição de umidade e temperatura, que ajudam os criadores a criarem ambientes propícios para seus coelhinhos.</p>
+                <p>Utilizando ESP8266 (variantes das placas Arduino), conseguimos fazer a leitura e o envio de dados graças aos módulos Wifi que a placa possui.</p>
+                <button class="btn btn-primary">SAIBA MAIS</button>
+            </div>
+
+            <br></br>
+            <div class="image-container">
+                <img src="imagens/PlacaCabo.png" alt="Sistema de Medição">
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
